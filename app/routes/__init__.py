@@ -3,3 +3,6 @@
 from .home import bp as home
 
 from .dashboard import bp as dashboard
+
+# register this blueprint to the flask app, first import here
+from .api import bp as api
